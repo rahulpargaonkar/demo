@@ -14,13 +14,13 @@ public class FirefoxTest {
 		@Test
 		public void FFTest() {
 		
-		 FirefoxOptions firefoxOptions = new FirefoxOptions();
-		 firefoxOptions.setHeadless(true);
+		 //FirefoxOptions firefoxOptions = new FirefoxOptions();
+		// firefoxOptions.setHeadless(true);
 		 System.setProperty("webdriver.gecko.driver",
 		  "/Users/in-rahulpa/eclipse-workspace/demo/src/test/java/binaries/geckodriver"
 		 );
 		
-		 WebDriver driver = new FirefoxDriver(firefoxOptions);
+		 WebDriver driver = new FirefoxDriver();
 		
 		 
 			// System.setProperty("webdriver.chrome.driver", "/Users/in-rahulpa/eclipse-workspace/demo/src/test/java/binaries/chromedriver");
