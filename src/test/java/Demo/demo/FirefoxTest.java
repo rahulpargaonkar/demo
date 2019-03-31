@@ -12,11 +12,8 @@ public class FirefoxTest {
 		
 		@Test
 		public void FFTest() {
-			DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-			capabilities.setCapability("marionette", true);
-			FirefoxOptions firefoxOptions = new FirefoxOptions(capabilities);
-			firefoxOptions.addArguments("--width=1920");
-			firefoxOptions.addArguments("--height=1080");
+			FirefoxOptions firefoxOptions = new FirefoxOptions();
+			firefoxOptions.setHeadless(true);
 			System.setProperty("webdriver.gecko.driver","/Users/in-rahulpa/eclipse-workspace/demo/src/test/java/binaries/geckodriver");
 			 
 		WebDriver driver = new FirefoxDriver(firefoxOptions);

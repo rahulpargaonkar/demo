@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="4648" started-at="2019-03-31T01:02:11Z" finished-at="2019-03-31T01:02:16Z">
+  <suite name="Command line suite" duration-ms="5301" started-at="2019-03-31T02:04:57Z" finished-at="2019-03-31T02:05:02Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="4648" started-at="2019-03-31T01:02:11Z" finished-at="2019-03-31T01:02:16Z">
+    <test name="Command line test" duration-ms="5301" started-at="2019-03-31T02:04:57Z" finished-at="2019-03-31T02:05:02Z">
       <class name="Demo.demo.FirefoxTest">
-        <test-method status="PASS" signature="FFTest()[pri:0, instance:Demo.demo.FirefoxTest@73f792cf]" name="FFTest" duration-ms="4627" started-at="2019-03-31T01:02:11Z" finished-at="2019-03-31T01:02:16Z">
+        <test-method status="PASS" signature="FFTest()[pri:0, instance:Demo.demo.FirefoxTest@38082d64]" name="FFTest" duration-ms="5283" started-at="2019-03-31T02:04:57Z" finished-at="2019-03-31T02:05:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FFTest -->
