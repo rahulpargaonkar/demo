@@ -18,6 +18,7 @@ public class FirefoxTest {
 			 
 		WebDriver driver = new FirefoxDriver(firefoxOptions);
 		driver.get("http://www.google.com");
+		System.out.println("TITLE===== "+driver.getTitle());
 		}
 	
 }
